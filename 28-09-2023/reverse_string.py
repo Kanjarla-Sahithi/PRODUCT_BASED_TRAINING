@@ -1,3 +1,8 @@
+"""INPUT:
+   hello , how is your family?!
+   OUTPUT:
+    ylima , fru oy siwo holleh?!
+"""
 s=input()
 s1=""
 for c in s:
