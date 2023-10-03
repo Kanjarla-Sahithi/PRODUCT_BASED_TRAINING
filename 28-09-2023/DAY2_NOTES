@@ -1,0 +1,22 @@
+28-09-2023
+space complexity = auxilary space + input values of a variables.
+======================================================================================
+TIME COMPLEXITY:
+There are 3 types of asymtotic notations 
+1)Big O - Worst Case - Upper Boundary value
+2)Omega - Best Case - Lower Boundary Value
+3)Theta - Average Case - Combination of both Lower and Upper value 
+
+O(n)==>for(i=0; i<n; i++)   => loop is executed n times, the loop is dependent on the n so the time complexity becomes O(n)
+       {
+        stm++;
+       }
+
+O(n^2)==> for(i=0; i<n; i++)   => n times 
+         {
+           for(j=0; j<n; i++)  => n times  so n*n = n^2 so the time complexity becomes O(n^2)  
+	   {
+           stm++;
+           }
+	 }
+==> Conditional statements come to O(1) but iteration statements comes under O(n), O(n^2).....
