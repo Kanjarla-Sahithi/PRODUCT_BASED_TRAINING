@@ -1,0 +1,5 @@
+02-10-2023
+=>Recursion is used for backtracking but not completely for backtracking.
+=>Everything solved iteratively can solved recursively but recursively solved problems cannot solved iteratively.
+=>Backtracking means undo the previous place and make a change and going in different path. 
+=>Example for backtracking is N-Queens problem.
