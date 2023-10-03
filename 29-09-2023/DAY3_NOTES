@@ -1,0 +1,71 @@
+29-09-2023
+main()
+{
+  int a=10;
+  if(a>100 && a++<200 && a++==12)    
+  {
+       printf("Hello %d",a);
+  }
+  else
+  {
+      printf("Hi %d",a);
+  }
+
+=>when we use bitwise '&' operator whether the condition is true or false it moves to next one
+		ex:(a>100 & a++<200 & a++==12) whether a is greater than 100 or not it moves to a++<200.
+=>Where as in logical operator if the first condition is true only it moves to next one.
+ 		ex:(a>100 && a++<200 && a++==12) if a>100 is true then only it moves to a++<200 if not it moves ti else part.
+==========================================================================================================================================
+main()
+{
+  int a=10;
+  if(a>100 || a++<200 || a++==12)    
+  {
+       printf("Hello %d",a);
+  }
+  else
+  {
+      printf("Hi %d",a);
+  }
+=>In logical '||' if 1st condition is true then it does not move to next condition, if it false then it move to next condition.
+=>In bitwise '|' whether the condition is true or false it goes to the all the condition in the if , if one of them is correct then it gives the if statement.
+=====================================================================================================================================================================
+int a=~100
+printf("%d",a);
+OUTPUT:
+101
+because '~' n = -(n+1)
+
+int a=~-999
+printf("%d",a);
+OUTPUT:
+998 
+==================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
